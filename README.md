@@ -3,14 +3,14 @@ This is a basketball league management system
 
 Assumptions
 
-This is a monitoring system. Thus insertion and modification APIs are not provided
-A team consists of 16 players. Not more or less than that.
+1. This is a monitoring system. Thus insertion and modification APIs are not provided.
+2. A team consists of 16 players. Not more or less than that.
 
 
 Requirements
-1.Django:3.0.3
-2.djangorestframework:3.11.0
-3.python:3.8.7
+1. Django:3.0.3
+2. djangorestframework:3.11.0
+3. python:3.8.7
 
 
 Running the server
