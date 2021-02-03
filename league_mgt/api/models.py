@@ -43,8 +43,8 @@ class Game(models.Model):
 			) 
 
 	RESULT = (
-			 ('Won', 'Won'),
-			 ('Drawn', 'Drawn'),
+			 ('Full Time', 'Full Time'),
+			 ('Half Time', 'Half Time'),
 			 ('Abandoned', 'Abandoned'),
 			 ('Scheduled', 'Scheduled'),
 			 ('Cancelled', 'Cancelled'),
