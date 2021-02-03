@@ -55,7 +55,7 @@ APIs
 	
 4. Plater detail
 	List of all the teams. Users belonged to admin role can see it.
-	/api/players/<player id>
+	/api/players/[player id
 	
 	eg: http://127.0.0.1:8000/api/players/10
 	
@@ -73,7 +73,7 @@ APIs
 	
 7. Best Players List 
 	List of best players (Average is grater than 90 presentile) by the team. Users belonged to coach role can see it.
-	/api/teams/<team id>/players/best
+	/api/teams/[team id]/players/best
 	
 	eg:http://127.0.0.1:8000/api/teams/3/players/best
 
@@ -85,6 +85,6 @@ APIs
 	
 9. Player detail by team
 	Detail of player by the team. Users belonged to coach role can see it.
-	/api/teams/<team id>/players/<player id>
+	/api/teams/[team id]/players/[player id]
 	
 	eg: http://127.0.0.1:8000/api/teams/3/players/10
