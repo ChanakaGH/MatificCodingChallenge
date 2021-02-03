@@ -2,8 +2,10 @@
 This is a basketball league management system
 
 Assumptions
+
 This is a monitoring system. Thus insertion and modification APIs are not provided
 A team consists of 16 players. Not more or less than that.
+
 
 Requirements
 1.Django:3.0.3
